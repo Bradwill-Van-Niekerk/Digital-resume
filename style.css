@@ -308,13 +308,15 @@ margin-top: 30px;
     color: #ff004f;
     transform: translateY(-5px);
 }
-.btn{
+.btn {
     display: inline-block;
     background: #ff004f;
     padding: 14px 16px;
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+    border-radius: 7.5px;
+    border-style: none;
 }
 .contact-right form{
     width: 100%;
