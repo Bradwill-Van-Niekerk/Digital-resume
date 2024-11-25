@@ -15,9 +15,9 @@
             <nav>
                 <img src="" class="logo">
                 <ul id="sidemenu">
-                    <li><a href="#header">home</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#services">service</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
                     <li><a href="#porfolio">Portfolio</a></li>
                     <li><a href="#contact">contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -25,7 +25,7 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="headertext">
-                <p>developer</p>
+                <p>Systems Developer</p>
                 <h1><span>Bradwill</span> Van Niekerk</h1>
             </div>
         </div>
@@ -62,19 +62,37 @@
                             <li><span>
                                     JavaScript
                                 </span><br>
-                                versatile, high-level language used for web development, enabling dynamic content,
-                                interactivity, and server communication on websites.
+
+                                JavaScript is used for web development, creating interactive websites, mobile apps,
+                                server-side applications (with Node.js), game development, building APIs, automating
+                                tasks, and enhancing user interfaces with dynamic, real-time features.
                             </li>
                             <li><span>
                                     Python
                                 </span><br>
-                                high-level, interpreted programming language known for its simplicity, readability, and
-                                versatility. It supports multiple programming paradigms and is widely used in web
-                                development, data science, automation, and AI.</li>
+
+                                Python is versatile for web development, data analysis, machine learning, automation,
+                                scientific computing, artificial intelligence, scripting, game development, software
+                                testing, and system administration, with extensive libraries and frameworks supporting
+                                various tasks.</li>
                             <li><span>
                                     HTML/CSS
                                 </span><br>
-                                designing web app interfaces</li>
+                                Designing web app interfaces</li>
+                            <li><span>
+                                    Node
+                                </span><br>
+                                Build fast and scalable web servers, real-time applications (like chat apps), APIs,
+                                microservices, automate tasks, handle databases, process files, and develop server-side
+                                JavaScript applications efficiently.
+                            </li>
+                            <li><span>
+                                    Java
+                                </span><br>
+                                Java can be used to develop web applications, mobile apps (Android), enterprise
+                                software, desktop applications, games, big data processing, cloud-based systems, and
+                                embedded systems, offering portability, scalability, and security.
+                            </li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="Experience">
@@ -87,6 +105,10 @@
                     </div>
                     <div class="tab-contents" id="Education">
                         <ul>
+                            <li><span>
+                                    Parow High School
+                                </span><br>
+                                NSC</li>
                             <li><span>
                                     CodeSpace Academy
                                 </span><br>
@@ -158,62 +180,63 @@
                 </div>
             </div>
         </div>
-        <div id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="contact-left">
-                        <h1 class="sub">Contact Me</h1>
-                        <p><i class="fa-solid fa-paper-plane"></i>bradwill.oostendorp7@gmail.com</p>
-                        <p><i class="fa-solid fa-phone"></i>0780398251</p>
-                        <div class="social-icons">
-                            <a href="https://www.linkedin.com/in/bradwill-van-niekerk-a02211280/" target="_blank"><i
-                                    class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://github.com/Bradwill-Van-Niekerk" target="_blank"><i
-                                    class="fa-brands fa-github"></i></a>
-                            <a href="https://www.instagram.com/a5h3r_5ky3/?next=%2F" target="_blank"><i
-                                    class="fa-brands fa-instagram"></i></a>
-
-                        </div>
-                    </div>
-                    <div class="contact-right">
-                        <form action="https://formspree.io/f/xkgnzpql" method="POST">
-                            <input type="text" name="Name" placeholder="Name" required>
-                            <input type="email" name="email" placeholder="example@email.com" required>
-                            <textarea name="message" rows="6" placeholder="Message"></textarea>
-                            <button type="submit" id="refreshButton" class="btn btn2">Submit</button>
-                        </form>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>bradwill.oostendorp7@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0780398251</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/bradwill-van-niekerk-a02211280/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Bradwill-Van-Niekerk" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/a5h3r_5ky3/?next=%2F" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
 
                     </div>
                 </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/xkgnzpql" method="POST">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="example@email.com" required>
+                        <textarea name="message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" id="refreshButton" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
             </div>
-            <script>
-                var tablinks = document.getElementsByClassName("tab-links")
-                var tabcontents = document.getElementsByClassName("tab-contents")
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
 
-                function opentab(tabname) {
-                    for (tablink of tablinks) {
-                        tablink.classList.remove("active-link")
-                    }
-                    for (tabcontent of tabcontents) {
-                        tabcontent.classList.remove("active-tab")
-                    }
-                    event.currentTarget.classList.add("active-link")
-                    document.getElementById(tabname).classList.add("active-tab")
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link")
                 }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
 
-                var sidemenu = document.getElementById("sidemenu");
-                function openmenu() {
-                    sidemenu.style.right = "0";
-                }
-                function closemenu() {
-                    sidemenu.style.right = "-200px"
-                }
-                document.getElementById("refreshButton").addEventListener("click", function () {
-                    setTimeout(function () {
-                        location.reload();
-                    }, 4000);
-                });
-            </script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px"
+            }
+            document.getElementById("refreshButton").addEventListener("click", function () {
+                setTimeout(function () {
+                    location.reload();
+                }, 4000);
+            });
+        </script>
 </body>
 
 </html>
