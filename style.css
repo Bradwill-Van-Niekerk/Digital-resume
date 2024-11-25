@@ -7,49 +7,50 @@
 html{
     scroll-behavior: smooth;
 }
-
+ 
 body {
     background: #080808;
     color: #fff;
 }
-
+ 
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(https://i.postimg.cc/rwRnrFfK/Bradwill.png);
-    background-size: cover;
-    background-position: center;
+    background-image: url(https://i.postimg.cc/VLBGCM55/Whats-App-Image-2024-11-22-at-12-59-49-df82e7ab-removebg-preview-1.png);
+    background-size: relative;
+    background-position: right;
+    background-repeat: no-repeat;
 }
-
+ 
 .container {
     padding: 10px 10%;
 }
-
+ 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+ 
 .logo {
     width: 140px;
 }
-
+ 
 nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px, 20px;
-
+ 
 }
-
+ 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
 }
-
+ 
 nav ul li a::after {
     content: "";
     width: 0;
@@ -60,67 +61,67 @@ nav ul li a::after {
     bottom: -6px;
     transition: 0.5s;
 }
-
+ 
 nav ul li a:hover::after {
     width: 100%
 }
-
+ 
 .headertext {
     margin-top: 20%;
     font-size: 30px;
-
+ 
 }
-
+ 
 .headertext h1 {
     font-size: 60px;
     margin-top: 20px;
 }
-
+ 
 span {
     color: #ff004f;
 }
-
+ 
 /*About*/
 #about {
     padding: 80px 0;
     color: #ababab;
-
-
+ 
+ 
 }
-
+ 
 .row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
+ 
 }
-
+ 
 .about-col-1 {
     flex-basis: 35%;
-
+ 
 }
-
+ 
 .about-col-1 img {
     width: 100%;
     border-radius: 15px;
 }
-
+ 
 .about-col-2 {
     flex-basis: 60%;
-
+ 
 }
-
+ 
 .sub {
     font-size: 60px;
     font-weight: 600;
     color: #fff;
 }
-
+ 
 .tab-title {
     display: flex;
     margin: 20px 0 40px;
 }
-
+ 
 .tab-links {
     margin-right: 50px;
     font-size: 18px;
@@ -128,7 +129,7 @@ span {
     cursor: pointer;
     position: relative;
 }
-
+ 
 .tab-links::after {
     content: "";
     width: 0;
@@ -138,43 +139,43 @@ span {
     left: 0;
     bottom: -8px;
     transition: 0.5s;
-
+ 
 }
-
+ 
 .tab-links.active-link::after {
     width: 50%;
 }
-
+ 
 .tab-contents ul li {
     list-style: none;
     margin: 10px 0;
 }
-
+ 
 .tab-contents ul li span {
     color: #b54769;
     font-size: 14px;
 }
-
+ 
 .tab-contents {
     display: none;
 }
-
+ 
 .tab-contents.active-tab {
     display: block;
 }
-
+ 
 /*services*/
 #services {
-    padding: 30pc 0;
+    padding: 30px 0;
 }
-
+ 
 .services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
-
+ 
 .services-list div {
     background: #262626;
     padding: 40px;
@@ -183,12 +184,12 @@ span {
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
 }
-
+ 
 .services-list div i {
     font-size: 50px;
     margin-bottom: 30 px;
 }
-
+ 
 .services-list div h2{
     font-size: 30px ;
     font-weight: 500;
@@ -266,13 +267,13 @@ span {
 .work:hover .layer{
     height: 100%;
 }
-
+ 
 /*contact*/
-
+ 
 .contact-left{
     flex-basis: 35%;
 }
-
+ 
 .contact-right{
     flex-basis: 60%;
 }
@@ -295,7 +296,7 @@ margin-top: 30px;
     display: inline-block;
     transition: transform 0.5s;
 }
-
+ 
 .social-icons a:hover{
     color: #ff004f;
     transform: translateY(-5px);
@@ -322,7 +323,7 @@ form input, form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
-
+ 
 nav .fa-solid{
     display: none;
 }
@@ -356,7 +357,7 @@ nav .fa-solid{
     nav ul li{
         display: block;
         margin: 25px;
-
+ 
     }
     nav ul .fa-solid{
         position: absolute;
@@ -369,7 +370,7 @@ nav .fa-solid{
     }
     .about-col-1 .about-col-2{
         flex-basis: 100%;
-
+ 
     }
     .about-col-1{
         margin-bottom: 30px;
