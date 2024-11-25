@@ -25,16 +25,18 @@ body {
 .container {
     padding: 10px 10%;
 }
- 
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-wrap: wrap;
     position: fixed;
-    top: 12px;
+    top: 0;
     right: 20px;
+    width: 100%;
     background: #080808;
+    padding: 1rem;
+    z-index: 99;
 }
  
 .logo {
