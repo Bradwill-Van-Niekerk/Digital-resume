@@ -331,7 +331,9 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(https://i.postimg.cc/pX6crnYw/Bradwillheadshot.png);
-        background-size: cover;    
+        background-size: cover;
+        background-position: center;
+        
     }
     .headertext{
         margin-top: 100%;
